@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.dateTableRow {
+  border-bottom: 1px dashed black;
+  display: flex;
+}
+.dateTableRow.last {
+  border-bottom-style: solid;
+}
+
+.dateTableCell,
+.workOrderCell {
+  min-width: 100px;
+  min-height: 70px;
+}
+.workOrderCell {
+  align-content: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.workOrderName {
+  height: 50%;
+  width: 100%;
+}
+.workOrderJob {
+  width: 90%;
+  border-top: 1px solid;
+  padding-top: 3px;
+}
+.workOrder {
+  border: 1px solid black;
+  padding: 2px;
+  width: 80px;
+  height: 50px;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 10px;
+}
+.dateTableCell {
+  border-right: 1px solid black;
+}
+
+.dateTableRowName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dashed black;
+}
+
+.dateTableCell:last-of-type,
+.dateTableRowName {
+  border-right: 1px solid black;
+}
+.tableContainer {
+  border-left: none;
+  width: 710px;
+}
+.flex {
+  display: flex;
+}
+.tableHeader {
+  display: flex;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.header {
+  display: flex;
+  width: 700px;
+  padding-right: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.saveBtn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* .tableHeader .dateTableCell {
+  height: 30px;
+} */
